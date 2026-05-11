@@ -60,25 +60,6 @@ python src/visualization/plot_samples.py --data data/temperature_data.csv
 └── README.md              # This file
 ```
 
-### ⚙️ Configuration
-
-Adjust parameters in `config/default_config.json`:
-
-```json
-{
-  "simulation": {
-    "duration_hours": 168,
-    "sampling_interval_minutes": 30,
-    "num_sensors": 10
-  },
-  "anomalies": {
-    "spike_probability": 0.05,
-    "drift_magnitude": 2.0,
-    "collective_anomaly_rate": 0.1
-  }
-}
-```
-
 ### 📈 Data Format
 
 **temperature_data.csv**:
@@ -97,19 +78,6 @@ Adjust parameters in `config/default_config.json`:
 - Concrete curing process modeling
 - Sensor network fault detection
 - Machine learning model training and validation
-
-### 📚 Citation
-
-If you use this dataset in your research, please cite:
-
-```bibtex
-@dataset{concrete_curing_synthetic_2024,
-  title={Synthetic Concrete Curing Temperature Dataset},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/your-username/concrete-curing-synthetic-dataset}
-}
-```
 
 ### 📄 License
 
@@ -175,25 +143,6 @@ python src/visualization/plot_samples.py --data data/temperature_data.csv
 └── README.md              # 本文件
 ```
 
-### ⚙️ 配置
-
-在 `config/default_config.json` 中调整参数：
-
-```json
-{
-  "simulation": {
-    "duration_hours": 168,
-    "sampling_interval_minutes": 30,
-    "num_sensors": 10
-  },
-  "anomalies": {
-    "spike_probability": 0.05,
-    "drift_magnitude": 2.0,
-    "collective_anomaly_rate": 0.1
-  }
-}
-```
-
 ### 📈 数据格式
 
 **temperature_data.csv**:
@@ -213,18 +162,6 @@ python src/visualization/plot_samples.py --data data/temperature_data.csv
 - 传感器网络故障检测
 - 机器学习模型训练和验证
 
-### 📚 引用
-
-如果你在研究中使用此数据集，请引用：
-
-```bibtex
-@dataset{concrete_curing_synthetic_2024,
-  title={Synthetic Concrete Curing Temperature Dataset},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/your-username/concrete-curing-synthetic-dataset}
-}
-```
 
 ### 📄 许可证
 
