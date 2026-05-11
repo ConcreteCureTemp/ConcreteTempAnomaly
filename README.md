@@ -32,7 +32,6 @@ This dataset simulates concrete curing temperature profiles over a one-year peri
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
 cd ConcreteTempAnomaly
 
 # Install dependencies
@@ -112,20 +111,6 @@ The simulation incorporates:
 - **Collective Anomalies**: Systematic temperature deviations lasting 24-72 hours
 - **Physics-Based Modeling**: Temperature patterns based on concrete hydration kinetics
 
-### 📚 Citation
-
-If you use this dataset in your research, please cite this repository:
-
-```bibtex
-@software{concrete_curing_synthetic_2024,
-  title={Synthetic Concrete Curing Temperature Dataset},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/ConcreteCureTemp/ConcreteTempAnomaly},
-  note={GitHub repository}
-}
-```
-
 ### 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -162,7 +147,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```bash
 # 克隆仓库
-git clone <你的仓库地址>
 cd ConcreteTempAnomaly
 
 # 安装依赖
@@ -241,20 +225,6 @@ concrete-temp-sim
 - **自然噪声**：高斯噪声模拟真实传感器测量
 - **集体异常**：持续24-72小时的系统性温度偏差
 - **基于物理的建模**：基于混凝土水化动力学的温度模式
-
-### 📚 引用
-
-如果你在研究中使用此数据集，请引用本仓库：
-
-```bibtex
-@software{concrete_curing_synthetic_2024,
-  title={Synthetic Concrete Curing Temperature Dataset},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/ConcreteCureTemp/ConcreteTempAnomaly},
-  note={GitHub repository}
-}
-```
 
 ### 📄 许可证
 
