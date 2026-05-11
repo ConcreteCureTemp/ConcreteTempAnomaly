@@ -27,22 +27,6 @@ This dataset simulates concrete curing temperature profiles under various condit
   - Sensor drift (measurement errors)
   - Collective anomalies (multiple correlated sensors)
 
-### 🚀 Quick Start
-
-```bash
-# Clone the repository
-cd concrete-curing-synthetic-dataset
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Generate synthetic dataset
-python src/generators/main_generator.py --config config/default_config.json
-
-# Visualize sample data
-python src/visualization/plot_samples.py --data data/temperature_data.csv
-```
-
 ### 📁 Project Structure
 
 ```
@@ -108,22 +92,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - 冷却中断（环境干扰）
   - 传感器漂移（测量误差）
   - 集体异常（多个相关传感器）
-
-### 🚀 快速开始
-
-```bash
-# 克隆仓库
-cd concrete-curing-synthetic-dataset
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 生成合成数据集
-python src/generators/main_generator.py --config config/default_config.json
-
-# 可视化样本数据
-python src/visualization/plot_samples.py --data data/temperature_data.csv
-```
 
 ### 📁 项目结构
 
