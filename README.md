@@ -31,7 +31,6 @@ This dataset simulates concrete curing temperature profiles under various condit
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
 cd concrete-curing-synthetic-dataset
 
 # Install dependencies
@@ -114,7 +113,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```bash
 # 克隆仓库
-git clone <你的仓库地址>
 cd concrete-curing-synthetic-dataset
 
 # 安装依赖
